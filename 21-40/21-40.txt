@@ -1,0 +1,242 @@
+#21
+PARANDO EL TIEMPO
+/*
+ * Crea una función que sume 2 números y retorne su resultado pasados
+ * unos segundos.
+ * - Recibirá por parámetros los 2 números a sumar y los segundos que
+ *   debe tardar en finalizar su ejecución.
+ * - Si el lenguaje lo soporta, deberá retornar el resultado de forma
+ *   asíncrona, es decir, sin detener la ejecución del programa principal.
+ *   Se podría ejecutar varias veces al mismo tiempo.
+ */
+
+#22
+CALCULADORA .TXT
+/*
+ * Lee el fichero "Challenge21.txt" incluido en el proyecto, calcula su
+ * resultado e imprímelo.
+ * - El .txt se corresponde con las entradas de una calculadora.
+ * - Cada línea tendrá un número o una operación representada por un
+ *   símbolo (alternando ambos).
+ * - Soporta números enteros y decimales.
+ * - Soporta las operaciones suma "+", resta "-", multiplicación "*"
+ *   y división "/".
+ * - El resultado se muestra al finalizar la lectura de la última
+ *   línea (si el .txt es correcto).
+ * - Si el formato del .txt no es correcto, se indicará que no se han
+ *   podido resolver las operaciones.
+ */
+
+#23
+CONJUNTOS
+/*
+ * Crea una función que reciba dos array, un booleano y retorne un array.
+ * - Si el booleano es verdadero buscará y retornará los elementos comunes
+ *   de los dos array.
+ * - Si el booleano es falso buscará y retornará los elementos no comunes
+ *   de los dos array.
+ * - No se pueden utilizar operaciones del lenguaje que
+ *   lo resuelvan directamente.
+ */
+
+#24
+MÁXIMO COMÚN DIVISOR Y MÍNIMO COMÚN MÚLTIPLO
+/*
+ * Crea dos funciones, una que calcule el máximo común divisor (MCD) y otra
+ * que calcule el mínimo común múltiplo (mcm) de dos números enteros.
+ * - No se pueden utilizar operaciones del lenguaje que
+ *   lo resuelvan directamente.
+ */
+
+#25
+ITERATION MASTER
+/*
+ * Quiero contar del 1 al 100 de uno en uno (imprimiendo cada uno).
+ * ¿De cuántas maneras eres capaz de hacerlo?
+ * Crea el código para cada una de ellas.
+ */
+
+#26
+PIEDRA, PAPEL, TIJERA
+/*
+ * Crea un programa que calcule quien gana más partidas al piedra,
+ * papel, tijera.
+ * - El resultado puede ser: "Player 1", "Player 2", "Tie" (empate)
+ * - La función recibe un listado que contiene pares, representando cada jugada.
+ * - El par puede contener combinaciones de "R" (piedra), "P" (papel)
+ *   o "S" (tijera).
+ * - Ejemplo. Entrada: [("R","S"), ("S","R"), ("P","S")]. Resultado: "Player 2".
+ */
+
+#27
+CUADRADO Y TRIÁNGULO 2D
+/*
+ * Crea un programa que dibuje un cuadrado o un triángulo con asteriscos "*".
+ * - Indicaremos el tamaño del lado y si la figura a dibujar es una u otra.
+ * - EXTRA: ¿Eres capaz de dibujar más figuras?
+ */
+
+#28
+VECTORES ORTOGONALES
+/*
+ * Crea un programa que determine si dos vectores son ortogonales.
+ * - Los dos array deben tener la misma longitud.
+ * - Cada vector se podría representar como un array. Ejemplo: [1, -2]
+ */
+
+#29
+MÁQUINA EXPENDEDORA
+/*
+ * Simula el funcionamiento de una máquina expendedora creando una operación
+ * que reciba dinero (array de monedas) y un número que indique la selección
+ * del producto.
+ * - El programa retornará el nombre del producto y un array con el dinero
+ *   de vuelta (con el menor número de monedas).
+ * - Si el dinero es insuficiente o el número de producto no existe,
+ *   deberá indicarse con un mensaje y retornar todas las monedas.
+ * - Si no hay dinero de vuelta, el array se retornará vacío.
+ * - Para que resulte más simple, trabajaremos en céntimos con monedas
+ *   de 5, 10, 50, 100 y 200.
+ * - Debemos controlar que las monedas enviadas estén dentro de las soportadas.
+ */
+
+#30
+ORDENA LA LISTA
+/*
+ * Crea una función que ordene y retorne una matriz de números.
+ * - La función recibirá un listado (por ejemplo [2, 4, 6, 8, 9]) y un parámetro
+ *   adicional "Asc" o "Desc" para indicar si debe ordenarse de menor a mayor
+ *   o de mayor a menor.
+ * - No se pueden utilizar funciones propias del lenguaje que lo resuelvan
+ *   automáticamente.
+ */
+
+#31
+MARCO DE PALABRAS
+/*
+ * Crea una función que reciba un texto y muestre cada palabra en una línea,
+ * formando un marco rectangular de asteriscos.
+ * - ¿Qué te parece el reto? Se vería así:
+ *   **********
+ *   * ¿Qué   *
+ *   * te     *
+ *   * parece *
+ *   * el     *
+ *   * reto?  *
+ *   **********
+ */
+
+#32
+AÑOS BISIESTOS
+/*
+ * Crea una función que imprima los 30 próximos años bisiestos
+ * siguientes a uno dado.
+ * - Utiliza el menor número de líneas para resolver el ejercicio.
+ */
+
+#33
+EL SEGUNDO
+/*
+ * Dado un listado de números, encuentra el SEGUNDO más grande
+ */
+
+#34
+CICLO SEXAGENARIO CHINO
+/*
+ * Crea un función, que dado un año, indique el elemento 
+ * y animal correspondiente en el ciclo sexagenario del zodíaco chino.
+ * - Info: https://www.travelchinaguide.com/intro/astrology/60year-cycle.htm
+ * - El ciclo sexagenario se corresponde con la combinación de los elementos
+ *   madera, fuego, tierra, metal, agua y los animales rata, buey, tigre,
+ *   conejo, dragón, serpiente, caballo, oveja, mono, gallo, perro, cerdo
+ *   (en este orden).
+ * - Cada elemento se repite dos años seguidos.
+ * - El último ciclo sexagenario comenzó en 1984 (Madera Rata).
+ */
+
+#35
+LOS NÚMEROS PERDIDOS
+/*
+ * Dado un array de enteros ordenado y sin repetidos,
+ * crea una función que calcule y retorne todos los que faltan entre
+ * el mayor y el menor.
+ * - Lanza un error si el array de entrada no es correcto.
+ */
+
+#36
+BATALLA POKÉMON
+/*
+ * Crea un programa que calcule el daño de un ataque durante
+ * una batalla Pokémon.
+ * - La fórmula será la siguiente: daño = 50 * (ataque / defensa) * efectividad
+ * - Efectividad: x2 (súper efectivo), x1 (neutral), x0.5 (no es muy efectivo)
+ * - Sólo hay 4 tipos de Pokémon: Agua, Fuego, Planta y Eléctrico 
+ *   (buscar su efectividad)
+ * - El programa recibe los siguientes parámetros:
+ *  - Tipo del Pokémon atacante.
+ *  - Tipo del Pokémon defensor.
+ *  - Ataque: Entre 1 y 100.
+ *  - Defensa: Entre 1 y 100.
+ */
+
+#37
+LOS ANILLOS DE PODER
+/*
+ * ¡La Tierra Media está en guerra! En ella lucharán razas leales
+ * a Sauron contra otras bondadosas que no quieren que el mal reine
+ * sobre sus tierras.
+ * Cada raza tiene asociado un "valor" entre 1 y 5:
+ * - Razas bondadosas: Pelosos (1), Sureños buenos (2), Enanos (3),
+ *   Númenóreanos (4), Elfos (5)
+ * - Razas malvadas: Sureños malos (2), Orcos (2), Goblins (2),
+ *   Huargos (3), Trolls (5)
+ * Crea un programa que calcule el resultado de la batalla entre
+ * los 2 tipos de ejércitos:
+ * - El resultado puede ser que gane el bien, el mal, o exista un empate.
+ *   Dependiendo de la suma del valor del ejército y el número de integrantes.
+ * - Cada ejército puede estar compuesto por un número de integrantes variable
+ *   de cada raza.
+ * - Tienes total libertad para modelar los datos del ejercicio.
+ * Ej: 1 Peloso pierde contra 1 Orco
+ *     2 Pelosos empatan contra 1 Orco
+ *     3 Pelosos ganan a 1 Orco
+ */
+ 
+
+#38
+LOS LANZAMIENTOS DE "THE LEGEND OF ZELDA"
+/*
+ * ¡Han anunciado un nuevo "The Legend of Zelda"!
+ * Se llamará "Tears of the Kingdom" y se lanzará el 12 de mayo de 2023.
+ * Pero, ¿recuerdas cuánto tiempo ha pasado entre los distintos
+ * "The Legend of Zelda" de la historia?
+ * Crea un programa que calcule cuántos años y días hay entre 2 juegos de Zelda
+ * que tú selecciones.
+ * - Debes buscar cada uno de los títulos y su día de lanzamiento 
+ *   (si no encuentras el día exacto puedes usar el mes, o incluso inventártelo)
+ */
+
+
+
+#39
+BINARIO A DECIMAL
+/*
+ * Crea un programa se encargue de transformar un número binario
+ * a decimal sin utilizar funciones propias del lenguaje que
+ * lo hagan directamente.
+ */
+
+#40
+TOP ALGORITMOS | QUICK SORT
+/*
+ * Implementa uno de los algoritmos de ordenación más famosos:
+ * el "Quick Sort", creado por C.A.R. Hoare.
+ * - Entender el funcionamiento de los algoritmos más utilizados de la historia
+ *   Nos ayuda a mejorar nuestro conocimiento sobre ingeniería de software.
+ *   Dedícale tiempo a entenderlo, no únicamente a copiar su implementación.
+ * - Esta es una nueva serie de retos llamada "TOP ALGORITMOS",
+ *   donde trabajaremos y entenderemos los más famosos de la historia.
+ */
+
+
+

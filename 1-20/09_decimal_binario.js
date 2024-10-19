@@ -16,7 +16,7 @@ function decimalABinario(numeroDecimal) {
 }
 
 // Ejemplo de uso
-const numero = 13; // Cambia este número por el que desees convertir
+const numero = 1234; // Cambia este número por el que desees convertir
 const binarioResultado = decimalABinario(numero);
 console.log(`El número ${numero} en binario es: ${binarioResultado}`);
 
